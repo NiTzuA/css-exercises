@@ -8,7 +8,20 @@ body {
   font-family: Besley, serif;
 }
 
+.left, .right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/*.notifications {
+  margin-left: auto;
+}*/
+
 .header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,5 +57,9 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
   list-style-type: none;
 }
