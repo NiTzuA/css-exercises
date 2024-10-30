@@ -52,18 +52,16 @@ input {
 }
 
 .header {
-  text-decoration: none;
   color: darkgray;
   padding: 15px;
-  display: flex;;
+  display: flex;
   justify-content: space-between;
 }
 
 .footer {
-  text-decoration: none;
   background-color: #eeeeee;
   padding: 15px;
-  display: flex;;
+  display: flex;
   justify-content: space-between;
 }
 
